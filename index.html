@@ -4,16 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>City Celsius</title>
-    <link href = "syle.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <script
-  src="https://code.jquery.com/jquery-3.5.0.min.js"
-  integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
-  crossorigin="anonymous"></script>
+    <link type="text/css" href = "style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <link href="main.js" />
 </head>
 <body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand" href="#">Logo Here</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+
     
+    <div class="container-fluid" id="main">
+        <div class="row">
+            <div class="col-sm-4">
+                <h2>Check your city!</h2>
+
+                <form>
+                <div class="form-row align-items-center" id="zip">
+                    <div class="col-sm-3">
+                        <input type="text" class="form-control" id="inputZip" placeholder="Zip">
+                    </div>
+                    <div class="col-auto">
+                        <button type="submit" class="btn btn-primary">Ok</button>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="col-sm-8" id="report">
+                <h2>Where the report goes</h2>
+            </div>
+        </div>
+    </div>
+
+
+<footer>
+    
+</footer>
+
 </body>
 </html>

@@ -1,0 +1,28 @@
+
+#zip {
+    margin-left: 20px 
+}
+
+#main {
+    padding-bottom: 50px;
+    background-color: #0f1113;
+}
+
+
+#main h2 {
+    color: white;
+    padding: 20px 20px;
+}
+
+#report {
+    border-bottom-left-radius: 50%;
+    min-height: 400px;
+    padding: 20px 40px 20px 40px;
+    background-color: gray;
+}
+
+/* footer */
+footer {
+    background-color: #343a40;
+    padding: 50px
+}
