@@ -21,6 +21,18 @@
     background-color: gray;
 }
 
+#city-time {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#the-weather {
+   text-align: center;
+}
+
+
+
 /* footer */
 footer {
     background-color: #343a40;
